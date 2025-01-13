@@ -34,7 +34,7 @@ class VideoCard extends StatelessWidget {
               ),
               Container(
                 height: 400,
-                color: Colors.black26, // Placeholder for the video
+                color: Colors.black26, 
                 child: Center(
                   child: Icon(
                     Icons.play_circle_fill,
