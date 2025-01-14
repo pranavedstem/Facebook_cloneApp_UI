@@ -1,3 +1,4 @@
+import 'package:facebookapp/screens/login.dart';
 import 'package:flutter/material.dart';
 
 class MenuScreen extends StatelessWidget {
@@ -175,7 +176,7 @@ class MenuScreen extends StatelessWidget {
             surfaceTintColor: const Color.fromARGB(255, 115, 114, 114),
             child: Center(
               heightFactor: 1.5,
-              child: Text(''),
+              child: FilledButton.icon(onPressed: (){Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=>LoginScreen()));},icon: Icon(Icons.exit_to_app_outlined), label: Text('Logout')),
             ),
           )
         ],
