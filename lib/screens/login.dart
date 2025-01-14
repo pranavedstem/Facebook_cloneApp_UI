@@ -22,10 +22,11 @@ class _LoginScreenState extends State<LoginScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Center(
-                child: CircleAvatar(
-              radius: 50,
-              backgroundImage: AssetImage('assets/images/facebooklogo.png'),
-            )),
+              child: CircleAvatar(
+                radius: 50,
+                backgroundImage: AssetImage('assets/images/facebooklogo.png'),
+              ),
+            ),
             SizedBox(
               height: 30,
             ),
